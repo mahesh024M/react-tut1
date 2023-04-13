@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App" >
           <h1>React Hierarchy</h1>
-           <Test1/>
+           <Test1 userName={userName}/>
     </div>
   );
 }
